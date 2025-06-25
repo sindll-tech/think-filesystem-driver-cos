@@ -1,0 +1,23 @@
+{
+    "name": "sindll-tech/think-filesystem-driver-cos",
+    "description": "The ThinkPHP Filesystem Package",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "wisoch",
+            "email": "wisoch@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "think\\filesystem\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=8.1.0",
+        "topthink/framework": "^6.1|^8.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
